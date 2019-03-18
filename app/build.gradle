@@ -43,5 +43,3 @@ dependencies {
     implementation deps.amap.location
     implementation deps.amap.search
 }
-
-
