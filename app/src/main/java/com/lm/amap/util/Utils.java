@@ -3,7 +3,7 @@ package com.lm.amap.util;
 import android.content.Context;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/12
  * @Description 工具类
  * Copyright(c) 2017, Zhejiang Yunbo Technology Co.,Ltd. All rights reserved

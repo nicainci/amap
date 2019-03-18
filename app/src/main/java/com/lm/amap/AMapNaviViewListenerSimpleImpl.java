@@ -3,7 +3,7 @@ package com.lm.amap;
 import com.amap.api.navi.AMapNaviViewListener;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/14
  * @Description AMapNaviViewListener
  * Copyright(c) 2017, Zhejiang Yunbo Technology Co.,Ltd. All rights reserved

@@ -1,7 +1,6 @@
 package com.lm.amap;
 
 import android.content.Context;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/6
  * @Description SearchAdapter
  */

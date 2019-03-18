@@ -13,12 +13,10 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import com.amap.api.maps.CameraUpdateFactory;
 import com.amap.api.maps.model.BitmapDescriptor;
 import com.amap.api.maps.model.BitmapDescriptorFactory;
 import com.amap.api.maps.model.CrossOverlay;
 import com.amap.api.maps.model.CrossOverlayOptions;
-import com.amap.api.maps.model.LatLngBounds;
 import com.amap.api.navi.AMapNavi;
 import com.amap.api.navi.AMapNaviView;
 import com.amap.api.navi.AMapNaviViewOptions;
@@ -27,18 +25,12 @@ import com.amap.api.navi.model.AMapCalcRouteResult;
 import com.amap.api.navi.model.AMapLaneInfo;
 import com.amap.api.navi.model.AMapModelCross;
 import com.amap.api.navi.model.AMapNaviCross;
-import com.amap.api.navi.model.AMapNaviLocation;
 import com.amap.api.navi.model.AMapNaviPath;
 import com.amap.api.navi.model.AMapTrafficStatus;
 import com.amap.api.navi.model.NaviInfo;
 import com.amap.api.navi.model.RouteOverlayOptions;
-import com.amap.api.navi.view.DirectionView;
-import com.amap.api.navi.view.OverviewButtonView;
-import com.amap.api.navi.view.TrafficButtonView;
 import com.amap.api.navi.view.TrafficProgressBar;
-import com.amap.api.navi.view.ZoomInIntersectionView;
 import com.autonavi.ae.gmap.gloverlay.GLCrossVector;
-import com.lm.amap.util.MapUtils;
 import com.lm.amap.view.CustomDriveWayView;
 import com.lm.amap.view.CustomNextTurnTipView;
 import com.lm.amap.view.CustomOverviewButtonView;
@@ -49,7 +41,7 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/6
  * @Description 导航Activity
  */
@@ -108,7 +100,7 @@ public class NaviActivity extends AppCompatActivity {
         overviewButtonView = findViewById(R.id.overview_button_view);
         // 自定义路况按钮
         trafficButtonView = findViewById(R.id.traffic_button_view);
-        // 自定义路名剩余距离转向图标示例
+        // 自定义路名剩余距离转向图标
         nextTurnTipView = findViewById(R.id.next_turn_tip_view);
         // 自定义车道信息View
         driveWayView = findViewById(R.id.drive_way_view);
@@ -223,7 +215,7 @@ public class NaviActivity extends AppCompatActivity {
     }
 
     /**
-     * 设置自定义路名剩余距离转向图标示例
+     * 设置自定义路名剩余距离转向图标
      */
     private void setNextTurnTipView(AMapNavi navi, CustomNextTurnTipView nextTurnTipView) {
         navi.addAMapNaviListener(new AMapNaviListenerSimpleImpl() {

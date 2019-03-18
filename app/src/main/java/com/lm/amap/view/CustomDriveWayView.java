@@ -15,7 +15,7 @@ import com.amap.api.navi.model.AMapLaneInfo;
 import com.lm.amap.R;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/18
  * @Description 自定义车道信息View
  * Copyright(c) 2017, Zhejiang Yunbo Technology Co.,Ltd. All rights reserved

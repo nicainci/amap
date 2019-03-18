@@ -19,7 +19,7 @@ import com.amap.api.navi.model.NaviInfo;
 import com.autonavi.tbt.TrafficFacilityInfo;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/12
  * @Description AMapNaviListener
  * Copyright(c) 2017, Zhejiang Yunbo Technology Co.,Ltd. All rights reserved

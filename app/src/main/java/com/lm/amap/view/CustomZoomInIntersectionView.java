@@ -9,7 +9,7 @@ import android.view.MotionEvent;
 import com.amap.api.navi.model.AMapNaviCross;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/14
  * @Description 自定义路口放大图（实景图）view
  * Copyright(c) 2017, Zhejiang Yunbo Technology Co.,Ltd. All rights reserved

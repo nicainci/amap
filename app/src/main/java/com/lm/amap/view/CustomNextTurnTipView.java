@@ -20,7 +20,7 @@ import org.json.JSONObject;
 import java.text.DecimalFormat;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/18
  * @Description 自定义路名剩余距离转向图标示例
  * Copyright(c) 2017, Zhejiang Yunbo Technology Co.,Ltd. All rights reserved

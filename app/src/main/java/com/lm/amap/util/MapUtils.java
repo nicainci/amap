@@ -7,7 +7,7 @@ import com.amap.api.navi.model.NaviLatLng;
 import com.amap.api.services.core.LatLonPoint;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/12
  * @Description 地图工具类
  * Copyright(c) 2017, Zhejiang Yunbo Technology Co.,Ltd. All rights reserved

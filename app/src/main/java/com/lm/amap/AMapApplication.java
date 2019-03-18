@@ -7,7 +7,7 @@ import android.support.multidex.MultiDex;
 import com.lm.amap.util.Utils;
 
 /**
- * @Author WWC
+ * @Author LM
  * @Create 2019/3/6
  * @Description Application
  */
